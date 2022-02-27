@@ -1,13 +1,12 @@
 package com.widi;
 
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class Grader
 {
     private String rubricPath;
-
-    public Grader()
-    {
-        rubricPath = "";
-    }
 
     public Grader(String pathToRubric)
     {
@@ -19,9 +18,9 @@ public class Grader
         rubricPath = pathToRubric;
     }
 
-    private int importPicture(String path)
+    private Image importPicture(String path)
     {
         //take in path, return picture.
-        return 0;
+        return null;
     }
 }
